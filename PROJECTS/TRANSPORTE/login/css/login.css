@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
     --FONT-LOGIN: #393939de;
@@ -42,11 +43,13 @@ section#login > div#forms {
 }
 
 h1 {
-    color: var(--FONT-LOGIN);
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--FONT);
     text-align: center;
     font-weight: bold;
-    font-size: 1.6em;
-    margin: 20px 20px 0px 20px;
+    font-size: 2em;
+    margin: 0px 0px 0px 6px;
+    padding: 20px 0px 0px 0px;
  }
 
 label {
@@ -124,3 +127,10 @@ div > a:hover {
 }
 
 /* CONTEÚDO */
+
+div#imagem {
+    background: var(--HEADER);
+    background-size: cover;
+    height: 70px;
+    border-radius: 10px 10px 0px 0px;
+}

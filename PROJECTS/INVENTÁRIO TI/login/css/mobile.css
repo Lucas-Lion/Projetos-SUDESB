@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    --SECTION: rgba(255, 255, 255, 0.397);
-}
-
 /*   Typical Device Breakpoint 
 
 Pequenas telas:     até 600px
@@ -17,9 +13,11 @@ Grandes telas:      acima de 1200px
 @media screen and (min-width: 100px) and (max-width: 768px) {
     
     section#login {
-        background-color: var(--SECTION);
-        bottom: 0;
+        margin: 0px 0px 50px 0px;
+    }
+
+    footer {
         position: fixed;
-        margin: 150px 0px 0px 0px;
+        bottom: 0;
     }
 }
