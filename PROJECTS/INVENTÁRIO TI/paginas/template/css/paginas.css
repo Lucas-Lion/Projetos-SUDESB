@@ -100,7 +100,7 @@ main {
     top: 1%;
 }
 
-div > a > img:hover {
+#logo-retorno:hover {
     transition: transform 0.5s;
     transform: translate(-2px, -2px);
     border-radius: 10px;
