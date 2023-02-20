@@ -16,6 +16,10 @@ Grandes telas:      acima de 1200px
         margin: 0px 0px 50px 0px;
     }
 
+    section#login {
+        width: 400px;
+    }
+
     footer {
         position: fixed;
         bottom: 0;
